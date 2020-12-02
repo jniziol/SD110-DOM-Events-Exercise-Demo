@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice Final</title>
+
+  <link rel="stylesheet" href="./icofont/icofont.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+  <header>
+    <nav class="header-nav container">
+      <h1 class="logo">CrypTco</h1>
+      <ul class="links">
+        <li><a href="">Home</a></li>
+        <li><a href="">About Us</a></li>
+        <li>
+          <a id="features-link" href="">
+            Features
+            <i class="icofont-simple-down"></i>
+          </a>
+          <ul class="dropdown closed">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>           
+          </ul>
+        </li>
+        <li><a href="">Pages</a></li>
+        <li><a href="">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="our-team">
+    <div class="container">
+      <h2>Our Team</h2>
+      <p>
+        Send, receive, and exchange Bitcoin, Ethereum, & Bitcoin Cash instantly with anyone in the world. Securely buy and sell bitcoin.
+      </p>
+      <ul class="staff">
+        <li class="employee">
+          <img src="team-member-1.jpg" alt="">
+          <div class="staff-info">
+            <h3>John Doe</h3>
+            <h4>CEO</h4>
+          </div>
+        </li>
+        <li class="employee">
+          <img src="team-member-2.jpg" alt="">
+          <div class="staff-info">
+            <h3>Darth Vader</h3>
+            <h4>Developer</h4>
+          </div>
+        </li>
+        <li class="employee">
+          <img src="team-member-3.jpg" alt="">
+          <div class="staff-info">
+            <h3>Luke Skywalker</h3>
+            <h4>Designer</h4>
+          </div>
+        </li>
+        <li class="employee">
+          <img src="team-member-4.jpg" alt="">
+          <div class="staff-info">
+            <h3>Anakin Skywalker</h3>
+            <h4>Jr. Developer</h4>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="container info-container">
+      <div class="left">
+        <h2>
+          Investment To The Future Business Technology!
+        </h2>
+        <p class="faq-description">
+          The use of crypto-currencies has become more widespread, and they are now increasingly accepted as a legitimate currency for transactions Bitcoin is the first ever cryptocurrency and is used like other assets in exchange for goods and services.
+        </p>
+
+        <p>
+          Send, receive, and exchange Bitcoin, Ethereum, & Bitcoin Cash instantly with anyone in the world.
+        </p>
+
+        <button id="analytic-report">Analytic Report</button>
+      </div>
+      <img src="chart.svg" alt="">
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="copyright">©2020 CrypTco powered by MITT</div>
+      <div>
+        <h2>Tenetur quo iure</h2>
+        <ul>
+          <li><a href="#">Tenetur</a></li>
+          <li><a href="#">Labore</a></li>
+          <li><a href="#">Adipisicing</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <div id="news-letter-modal" class="closed">
+    <main class="modal-main">
+      <nav class="modal-nav">
+        <i class="icofont-close-line"></i>
+      </nav>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui a sed eum accusantium nesciunt tempora.
+      </p>
+      <form>
+        <input type="text" name="name" id="" placeholder="NAME">
+        <input type="email" name="email" id="" placeholder="EMAIL">
+        <button>Yes, I want the newsletter</button>
+      </form>
+    </main>
+  </div>
+  
+  <div id="toast" class="hidden">
+    <nav class="toast-nav">
+      Notice
+      <i class="icofont-close-line-squared"></i>
+    </nav>
+    <p>Sign up for our newsletter!</p>
+  </div>
+
+  <script src="modal.js"></script>
+  <script src="dropdown.js"></script>
+  <script src="toast.js"></script>
+</body>
+</html>
